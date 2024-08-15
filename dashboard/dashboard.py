@@ -28,7 +28,7 @@ def season(df):
     return season_2011_df, season_2012_df
 
 
-df = pd.read_csv(r"/workspaces/Project_analysis_data/final_data.csv")
+df = pd.read_csv(r"final_data.csv")
 
 df['dteday'] = pd.to_datetime(df['dteday'])
 
