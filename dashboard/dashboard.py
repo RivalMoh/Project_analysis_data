@@ -32,8 +32,6 @@ min_date = df['dteday'].min()
 max_date = df['dteday'].max()
 
 with st.sidebar:
-    # Menambahkan logo perusahaan
-    st.image('bike_logo.jpg')
 
     # Mengambil start_date dan end_date
     start_date, end_date = st.date_input(
