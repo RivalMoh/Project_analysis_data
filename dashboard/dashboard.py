@@ -1,5 +1,4 @@
 import os
-
 os.system('pip install matplotlib pandas seaborn babel streamlit numpy')
 
 import pandas as pd
