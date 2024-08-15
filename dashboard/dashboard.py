@@ -2,7 +2,8 @@ import os
 os.system('pip install pandas numpy matplotlib streamlit babel seaborn')
 
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib
+#import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
