@@ -1,6 +1,3 @@
-import os
-os.system('pip install matplotlib pandas seaborn babel streamlit numpy')
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -27,7 +24,7 @@ def season(df):
     return season_2011_df, season_2012_df
 
 
-df = pd.read_csv(r"C:\Users\User\Documents\hehehe\Project_data\dashboard\final_data.csv")
+df = pd.read_csv(r"/workspaces/Project_analysis_data/final_data.csv")
 
 df['dteday'] = pd.to_datetime(df['dteday'])
 
