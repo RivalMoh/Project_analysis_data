@@ -1,3 +1,6 @@
+import os
+os.system('pip install pandas numpy matplotlib streamlit babel seaborn')
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
