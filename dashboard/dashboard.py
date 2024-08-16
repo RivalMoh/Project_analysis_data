@@ -23,7 +23,7 @@ def season(df):
     return season_2011_df, season_2012_df
 
 
-df = pd.read_csv(r"C:\Users\User\Documents\hehehe\Project_data\dashboard\final_data.csv")
+df = pd.read_csv(r"final_data.csv")
 
 df['dteday'] = pd.to_datetime(df['dteday'])
 
@@ -32,7 +32,7 @@ max_date = df['dteday'].max()
 
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image('bike_logo.jpg')
+    st.image(r'bike_logo.jpg')
 
     # Mengambil start_date dan end_date
     start_date, end_date = st.date_input(
