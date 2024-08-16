@@ -1,4 +1,4 @@
-# Bike Rental dashboard
+# Bike Rental dashboard 🚲:
 
 ## Setup Environment - Ananconda
 ```
