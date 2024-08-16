@@ -1,0 +1,8 @@
+Babel==2.15.0
+matplotlib==3.9.1.post1
+matplotlib-inline==0.1.7
+numpy==2.0.1
+streamlit==1.37.1
+pandas
+seaborn
+statsmodels
